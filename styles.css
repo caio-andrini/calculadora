@@ -1,6 +1,6 @@
 .fundo {
     color: white;
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.493);
     width: 400px;
     height: 500px;
     margin: auto;
@@ -8,6 +8,13 @@
     border-radius: 10px;
     justify-content: center;
     display: flex;
+}
+#resultado{
+    background-color: rgba(255, 255, 255, 0);
+    width: all;
+    padding: auto;
+    height: 20px;
+    border-bottom: 1px solid white;
 }
 button {
     background-color: rgba(255, 255, 255, 0.212);
@@ -22,15 +29,16 @@ button {
 }
 button:hover {
     border: 1px solid white;
-    background-color: rgb(0, 9, 87);
+    background-color: rgba(119, 0, 255, 0.26);
     color: white;
 }
 h1 {
+    cursor: default;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 body {
-    background: linear-gradient(270deg, #8620fa, #9f6bff, #7c00b6);
+    background: linear-gradient(270deg, #aa20fa, #b06bff, #5500b6);
     background-size: 600% 600%;
     animation: gradiente 10s ease infinite;
     scrollbar-width: none;
