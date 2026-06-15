@@ -32,7 +32,12 @@ button:hover {
     background-color: rgba(119, 0, 255, 0.26);
     color: white;
 }
-h1 {
+footer h1 {
+    cursor: default;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.titulo {
     cursor: default;
     color: rgb(255, 255, 255);
     text-align: center;
