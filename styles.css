@@ -9,12 +9,15 @@
     justify-content: center;
     display: flex;
 }
-#resultado{
+#resultado {
     background-color: rgba(255, 255, 255, 0);
     width: all;
-    padding: auto;
+    padding: 20px;
     height: 20px;
     border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 button {
     background-color: rgba(255, 255, 255, 0.212);
@@ -26,8 +29,10 @@ button {
     width: 50px;
     margin: auto;
     margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 button:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid white;
     background-color: rgba(119, 0, 255, 0.26);
     color: white;
